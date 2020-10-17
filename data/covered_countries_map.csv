@@ -1,0 +1,38 @@
+ISO3,id,State/Province,County,City,Continent,Coverage,Latitude,Longitude,Freq
+ARG,Argentina,Ciudad Autónoma de Buenos Aires,-,Buenos Aires,South America,Municipality,-34.6075682,-58.4370894,1
+BRA,Brazil,-,-,-,South America,Country,-10.3333333,-53.2,1
+BRA,Brazil,Espírito Santo,-,-,South America,State/Province/County,-19.5687682,-40.1721991,1
+BRA,Brazil,Maranhão,-,-,South America,State/Province/County,-5.2085503,-45.3930262,1
+BRA,Brazil,Piauí,-,Teresina,South America,Municipality,-5.0896403,-42.809588,1
+BRA,Brazil,Rio Grande do Sul,-,-,South America,State/Province/County,-29.8425284,-53.7680577,1
+BRA,Brazil,São Paulo,-,São Paulo,South America,Municipality,-21.9549806,-49.0232348,1
+BRA,Brazil,São Paulo,Baixada Santista,-,South America,State/Province/County,-23.925580,-46.3809813,1
+CHN,China,Hubei,-,Wuhan,Asia,Municipality,30.592850,114.305542,1
+DNK,Denmark,Faroe Islands,-,-,Europe,State/Province/County,62.19850045,-6.81741243,1
+GBR,England (UK),-,-,-,Europe,Country,52.7954791,-0.54024029,1
+GBR,England (UK),-,-,-,Europe,Country,52.7954791,-0.54024029,1
+DEU,Germany,Thuringia,Ilm-Kreis,Neustadt am Rennsteig,Europe,Municipality,50.59718795,10.93963148,1
+HUN,Hungary,-,-,-,Europe,Country,47.1817585,19.5060937,1
+GBR,Iceland (UK),-,,-,Europe,Country,64.9841821,-18.1059013,1
+IND,India,Maharashtra,-,Mumbai,Asia,Municipality,18.9387711,72.8353355,1
+IRN,Iran,Guilan,-,-,Asia,State/Province/County,37.525344,48.4393176,1
+ITA,Italy,Lombardy,Castiglione d'Adda,Lodi,Europe,Municipality,45.3138959,9.503263,1
+ITA,Italy,Veneto,-,Vó,Europe,Municipality,45.3288991,11.6417347,1
+JPN,Japan,Tochigi,-,Utsunomiya,Asia,Municipality,36.5549677,139.8828776,1
+LUX,Luxembourg,-,-,-,Europe,Country,49.8158683,6.1296751,1
+NGA,Nigeria,Niger,-,-,Africa,State/Province/County,9.9326083,5.6511088,1
+PSE,Palestina,West Bank,-,-,Asia,State/Province/County,32.0254688,35.2888075,1
+SVN,Slovenia,-,-,-,Europe,Country,45.8133113,14.4808369,1
+ESP,Spain,-,-,-,Europe,Country,39.3262345,-4.8380649,1
+ESP,Spain,Catalunha,-,Barcelona,Europe,State/Province/County,41.75786995,2.03118204,1
+SWE,Sweden,Södermanland and ‎Uppland,Stockholm,Stockholm,Europe,Municipality,59.3251172,18.0710935,1
+SWE,Sweden,Södermanland and ‎Uppland,Stockholm,Stockholm,Europe,Municipality,59.3251172,18.0710935,1
+CHE,Switzerland,Canton of Geneva,-,Geneva,Europe,Municipality,46.2017559,6.1466014,1
+USA,United States,California,Los Angeles,-,North America,State/Province/County,34.3155072,-118.2096814,1
+USA,United States,California,Santa Clara,,North America,State/Province/County,37.2333253,-121.6846349,1
+USA,United States,Connecticut,-,-,North America,State/Province/County,41.603222,-73.087746,1
+USA,United States,Georgia,DeKalb and Fulton,-,North America,State/Province/County,33.7575613,-84.2186508,1
+USA,United States,Idaho,Blaine,-,North America,State/Province/County,43.3336455,-113.8808311,1
+USA,United States,Indiana,-,-,North America,State/Province/County,40.3270127,-86.1746933,1
+USA,United States,Louisiana,East Baton Rouge,Baton Rouge,North America,Municipality,30.451468,-91.187149,1
+USA,United States,Louisiana,Orleans and Jeferson Parishes,-,North America,State/Province/County,30.0801436,-89.9319134,1
