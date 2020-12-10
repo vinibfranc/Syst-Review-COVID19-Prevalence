@@ -12,7 +12,6 @@ rob_save(trafficlight, "plots/Appendix2_Figure.jpeg")
 
 ### Plot summary of each domain across studies ###
 
-# Generate in the Shiny app (customize "no information")
 summary <- rob_summary(data = jbi, tool = "Generic", weighted=FALSE, overall=TRUE)
 summary
 rob_save(summary, "plots/Figure4.jpeg")

@@ -1,2 +1,19 @@
-# Syst-Review-COVID19-Prevalence
-Statistics and figures of the paper "Population-based prevalence surveys during the COVID-19 pandemic: a systematic review"
+# Population‐based prevalence surveys during the Covid‐19 pandemic: A systematic review
+
+**Vinícius Bonetti Franceschi**, Andressa Schneiders Santos, Andressa Barreto Glaeser, Janini Cristina Paiz, Gabriel Dickin Caldana, Carem Luana Machado Lessa, Amanda de Menezes Mayer, Julia Gonçalves Küchle, Paulo Ricardo Gazzola Zen, Alvaro Vigo, Ana Trindade Winck, Liane Nanci Rotta, **Claudia Elizabeth Thompson**
+
+---
+
+This repository contains some data files necessary to reproduce the analyses and figures presented in **Franceschi et al., Reviews in Medical Virology, 2020** ([https://doi.org/10.1002/rmv.2200](https://doi.org/10.1002/rmv.2200)).
+
+## Summary
+
+Population‐based prevalence surveys of Covid‐19 contribute to establish the burden of infection, the role of asymptomatic and mild infections in transmission, and allow more precise decisions about reopen policies. We performed a systematic review to evaluate qualitative aspects of these studies, assessing their reliability and compiling practices that can influence the methodological quality. We searched MEDLINE, EMBASE, bioRxiv and medRxiv, and included cross‐sectional studies using molecular and/or serological tests to estimate the prevalence of Covid‐19 in the general population. Survey quality was assessed using the Joanna Briggs Institute Critical Appraisal Checklist for Prevalence Studies. A correspondence analysis correlated methodological parameters of each study to identify patterns related to higher, intermediate and lower risks of bias. The available data described 37 surveys from 19 countries. The majority were from Europe and America, used antibody testing, and reached highly heterogeneous sample sizes and prevalence estimates. Minority communities were disproportionately affected by Covid‐19. Important risk of bias was detected in four domains: sample size, data analysis with sufficient coverage, measurements in standard way and response rate. The correspondence analysis showed few consistent patterns for high risk of bias. Intermediate risk of bias was related to American and European studies, municipal and regional initiatives, blood samples and prevalence >1%. Low risk of bias was related to Asian studies, nationwide initiatives, reverse‐transcriptase polymerase chain reaction tests and prevalence <1%. We identified methodological standards applied worldwide in Covid‐19 prevalence surveys, which may assist researchers with the planning, execution and reporting of future population‐based surveys.
+
+## Data
+
+1. [covered_countries_map.csv](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/covered_countries_map.csv): Necessary to plot [Figure 2](https://onlinelibrary.wiley.com/cms/asset/62f00054-58ff-47d4-ae9e-d0f0b25826fc/rmv2200-fig-0002-m.jpg) using [coverage_map.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/coverage_map.R) script.
+
+2. [timeline.csv](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/timeline.csv): Necessary to plot [Figure 3](https://onlinelibrary.wiley.com/cms/asset/97422cb8-2de6-46c8-96cf-e7f23330ea6a/rmv2200-fig-0003-m.jpg) using [timeline.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/timeline.R) script.
+
+3. [survey_quality](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/survey_quality.csv): Necessary to plot [Figure 4](https://onlinelibrary.wiley.com/cms/asset/7ebbc025-e072-4a77-b3ad-fc38dea9c775/rmv2200-fig-0004-m.jpg) using [survey_quality.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/survey_quality.R).

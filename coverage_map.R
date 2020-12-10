@@ -9,9 +9,8 @@ library(gpclib)
 library(rgdal)
 library(mapproj)
 
-# New map
+### Plot map colored by frequency of prevalence studies ###
 
-# load data
 visited <- read.csv("data/covered_countries_map.csv", header = T)
 # determine how often a country was visited
 ncountry <- as.data.frame(table(visited$ISO3))
@@ -22,7 +21,6 @@ head(visited)
 
 # load world data for plotting 
 data(wrld_simpl)
-# def. color (bias for contrast)
 pal <- colorRampPalette(brewer.pal(6, 'Greens'), 
                         bias = 10)(length(visited$Freq.y))
 pal <- pal[with(visited, findInterval(Freq.y, sort(unique(Freq.y))))]
@@ -66,7 +64,7 @@ ggmapplot <- ggplot() +
              col = "red", size = 1) +
   scale_fill_manual(values=c("white", palette),
                     name="Number of surveys") +
-  coord_map() + # for normal Mercator projection
+  coord_map() +
   labs(x="", y="") + 
   theme(plot.background = element_rect(fill = "transparent", colour = "transparent"),
         panel.border = element_blank(),
