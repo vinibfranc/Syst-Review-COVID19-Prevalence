@@ -4,11 +4,10 @@ library(robvis)
 
 ### Plot trafficlight plot of the domain-level judgements for each individual study ###
 
-# Generate here
 jbi <- read.csv("data/survey_quality.csv")
 trafficlight <- rob_traffic_light(data = jbi, tool = "Generic")
 trafficlight
-rob_save(trafficlight, "plots/Appendix2_Figure.jpeg")
+rob_save(trafficlight, "plots/Appendix_Figure.jpeg")
 
 ### Plot summary of each domain across studies ###
 

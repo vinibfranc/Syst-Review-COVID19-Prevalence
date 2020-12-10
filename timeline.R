@@ -14,5 +14,5 @@ data$end <- as.POSIXct(strptime(data$end, "%Y-%m-%d"), tz = "GMT")
 timeline <- gg_vistime(data)
 timeline
 timeline + scale_x_datetime(date_breaks = "1 month", date_labels = "%b %Y") + theme(panel.border = element_blank(), panel.grid.major = element_blank(), panel.grid.minor.y  = element_blank(), panel.grid.minor = element_blank()) 
-ggsave(filename="plots/Figure31.jpg", units="in", dpi=600, height=5, width=8.75, device="jpeg", scale=1)
+ggsave(filename="plots/Figure3.jpg", units="in", dpi=600, height=5, width=8.75, device="jpeg", scale=1)
 dev.off()

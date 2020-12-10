@@ -16,4 +16,4 @@ Population‐based prevalence surveys of Covid‐19 contribute to establish the 
 
 2. [timeline.csv](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/timeline.csv): Necessary to plot [Figure 3](https://onlinelibrary.wiley.com/cms/asset/97422cb8-2de6-46c8-96cf-e7f23330ea6a/rmv2200-fig-0003-m.jpg) using [timeline.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/timeline.R) script.
 
-3. [survey_quality](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/survey_quality.csv): Necessary to plot [Figure 4](https://onlinelibrary.wiley.com/cms/asset/7ebbc025-e072-4a77-b3ad-fc38dea9c775/rmv2200-fig-0004-m.jpg) using [survey_quality.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/survey_quality.R).
+3. [survey_quality](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/data/survey_quality.csv): Necessary to plot [Figure 4](https://onlinelibrary.wiley.com/cms/asset/7ebbc025-e072-4a77-b3ad-fc38dea9c775/rmv2200-fig-0004-m.jpg) using [survey_quality.R](https://github.com/vinibfranc/Syst-Review-COVID19-Prevalence/blob/main/survey_quality.R) script.
